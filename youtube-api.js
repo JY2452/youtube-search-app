@@ -1,7 +1,8 @@
 import axios from 'axios';
+// eslint-disable-next-line import/no-unresolved
+import { API_KEY } from '@env';
 
 const API_URL = 'https://www.googleapis.com/youtube/v3/search';
-const API_KEY = 'AIzaSyBl793WMxntcPWHaNWgi6I1etN0FVwAtco';
 
 const youtubeSearch = (term) => {
   const params = {
